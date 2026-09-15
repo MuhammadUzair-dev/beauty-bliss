@@ -69,7 +69,7 @@ function New-GradientPlaceholder {
 New-GradientPlaceholder -Path (Join-Path $dir 'owner-makeup.jpeg') -W 800 -H 1000 -ColorA '#1B3A6B' -ColorB '#2C5293' -Title 'Owner Photo' -Subtitle 'Makeup artistry in action'
 
 # --- Slot 2: second About photo (overlay card) ---
-New-GradientPlaceholder -Path (Join-Path $dir 'owner-portrait.jpg') -W 800 -H 1000 -ColorA '#E8DFF5' -ColorB '#F5EDD4' -Title 'Founder Photo' -Subtitle 'Signature Beauty Bliss look'
+New-GradientPlaceholder -Path (Join-Path $dir 'owner-portrait.jpeg') -W 800 -H 1000 -ColorA '#E8DFF5' -ColorB '#F5EDD4' -Title 'Founder Photo' -Subtitle 'Signature Beauty Bliss look'
 
 # --- Logo chip placeholder ---
 $W = 500; $H = 500
