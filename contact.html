@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Beauty Bliss USA | Book Your Appointment</title>
+  <meta name="description" content="Get in touch with Beauty Bliss USA. Book a skincare treatment or makeup appointment in Somerset, New Jersey.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/logo.jpeg">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="nav">
+    <div class="nav__container">
+      <a href="index.html" class="nav__logo">
+        <img src="images/logo.jpeg" alt="Beauty Bliss USA logo" class="nav__logo-img">
+        <div>
+          <span class="nav__logo-text">Beauty Bliss</span>
+          <span class="nav__logo-sub">USA</span>
+        </div>
+      </a>
+      <div class="nav__links">
+        <a href="index.html" class="nav__link">Home</a>
+        <a href="about.html" class="nav__link">About</a>
+        <a href="services.html" class="nav__link">Services</a>
+        <a href="contact.html" class="nav__link active">Contact</a>
+        <a href="blog.html" class="nav__link">Blog</a>
+      </div>
+      <a href="contact.html" class="nav__cta">Book Now</a>
+      <button class="nav__toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+  <div class="nav__mobile-menu">
+    <a href="index.html" class="nav__mobile-link">Home</a>
+    <a href="about.html" class="nav__mobile-link">About</a>
+    <a href="services.html" class="nav__mobile-link">Services</a>
+    <a href="contact.html" class="nav__mobile-link">Contact</a>
+    <a href="blog.html" class="nav__mobile-link">Blog</a>
+    <a href="contact.html" class="btn btn--primary">Book Now</a>
+  </div>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="page-hero__bg"></div>
+    <h1>Get In Touch</h1>
+    <p>Ready to start your beauty journey? Send us a message and let's make it happen.</p>
+    <div class="breadcrumb">
+      <a href="index.html">Home</a>
+      <span class="sep">→</span>
+      <span class="current">Contact</span>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info reveal reveal--left">
+          <h3>Contact Information</h3>
+          <div class="contact-info__item">
+            <div class="contact-info__icon">📍</div>
+            <div>
+              <p class="contact-info__label">Location</p>
+              <p class="contact-info__value">Somerset, New Jersey 08873</p>
+            </div>
+          </div>
+          <div class="contact-info__item">
+            <div class="contact-info__icon">✉</div>
+            <div>
+              <p class="contact-info__label">Email</p>
+              <p class="contact-info__value">info@beautyblissusa.com</p>
+            </div>
+          </div>
+          <div class="contact-info__item">
+            <div class="contact-info__icon">📞</div>
+            <div>
+              <p class="contact-info__label">Phone / Text</p>
+              <p class="contact-info__value">(443) 600-2014</p>
+            </div>
+          </div>
+          <div class="contact-info__item">
+            <div class="contact-info__icon">🕐</div>
+            <div>
+              <p class="contact-info__label">Hours</p>
+              <p class="contact-info__value">By Appointment Only</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-card reveal reveal--right">
+          <h3>Send a Message</h3>
+          <form id="contactForm" action="#" method="post">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name *</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" placeholder="your@email.com" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="(000) 000-0000">
+            </div>
+            <div class="form-group">
+              <label for="service">Service Interest</label>
+              <select id="service" name="service">
+                <option value="">Select a service...</option>
+                <option value="facial">Specialized Facial</option>
+                <option value="dermaplaning">Certified Dermaplaning</option>
+                <option value="bridal">Bridal Makeup — From $300</option>
+                <option value="event-makeup">Event Makeup — From $100</option>
+                <option value="makeup-session">One-on-One Makeup Session — $80</option>
+                <option value="consultation">Free Consultation</option>
+                <option value="other">Other / General Inquiry</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" placeholder="Tell me about your skin goals or event details..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn--blue" style="width: 100%;">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <a href="index.html" class="nav__logo">
+            <img src="images/logo.jpeg" alt="Beauty Bliss USA logo" class="nav__logo-img">
+            <div><span class="nav__logo-text">Beauty Bliss</span><span class="nav__logo-sub">USA</span></div>
+          </a>
+          <p class="footer__brand-text">A holistic approach to skincare and beauty — full of bliss.</p>
+          <div class="footer__social">
+            <a href="https://www.instagram.com/beauty_bliss_usa/" target="_blank" rel="noopener" class="footer__social-link">📷</a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener" class="footer__social-link">f</a>
+            <a href="https://www.tiktok.com/" target="_blank" rel="noopener" class="footer__social-link">♪</a>
+            <a href="https://wa.me/14436002014" target="_blank" rel="noopener" class="footer__social-link">✆</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__heading">Quick Links</h4>
+          <a href="index.html" class="footer__link">Home</a>
+          <a href="about.html" class="footer__link">About</a>
+          <a href="services.html" class="footer__link">Services</a>
+          <a href="blog.html" class="footer__link">Blog</a>
+          <a href="contact.html" class="footer__link">Contact</a>
+        </div>
+        <div>
+          <h4 class="footer__heading">Services</h4>
+          <a href="services.html" class="footer__link">Specialized Facials</a>
+          <a href="services.html" class="footer__link">Dermaplaning</a>
+          <a href="services.html" class="footer__link">Bridal Makeup</a>
+          <a href="services.html" class="footer__link">Event Makeup</a>
+        </div>
+        <div>
+          <h4 class="footer__heading">Contact</h4>
+          <div class="footer__contact-item"><span class="icon">📍</span><span>Somerset, NJ 08873</span></div>
+          <div class="footer__contact-item"><span class="icon">✉</span><span>info@beautyblissusa.com</span></div>
+          <div class="footer__contact-item"><span class="icon">📞</span><span>(443) 600-2014</span></div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2025 Beauty Bliss USA — All Rights Reserved</span>
+        <div class="footer__bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/14436002014" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Chat on WhatsApp">💬</a>
+  <script src="js/main.js"></script>
+</body>
+</html>

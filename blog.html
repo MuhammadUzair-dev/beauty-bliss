@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog — Beauty Bliss USA</title>
+  <meta name="description" content="Skincare tips, product reviews, and beauty insights from Dr. Butool Kazmi.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/logo.jpeg">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav class="nav">
+    <div class="nav__container">
+      <a href="index.html" class="nav__logo">
+        <img src="images/logo.jpeg" alt="Beauty Bliss USA logo" class="nav__logo-img">
+        <div><span class="nav__logo-text">Beauty Bliss</span><span class="nav__logo-sub">USA</span></div>
+      </a>
+      <div class="nav__links">
+        <a href="index.html" class="nav__link">Home</a>
+        <a href="about.html" class="nav__link">About</a>
+        <a href="services.html" class="nav__link">Services</a>
+        <a href="contact.html" class="nav__link">Contact</a>
+        <a href="blog.html" class="nav__link active">Blog</a>
+      </div>
+      <a href="contact.html" class="nav__cta">Book Now</a>
+      <button class="nav__toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+  <div class="nav__mobile-menu">
+    <a href="index.html" class="nav__mobile-link">Home</a>
+    <a href="about.html" class="nav__mobile-link">About</a>
+    <a href="services.html" class="nav__mobile-link">Services</a>
+    <a href="contact.html" class="nav__mobile-link">Contact</a>
+    <a href="blog.html" class="nav__mobile-link">Blog</a>
+    <a href="contact.html" class="btn btn--primary">Book Now</a>
+  </div>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="page-hero__bg"></div>
+    <h1>Our Blog</h1>
+    <p>Expert skincare tips, product recommendations, and beauty insights.</p>
+    <div class="breadcrumb">
+      <a href="index.html">Home</a>
+      <span class="sep">→</span>
+      <span class="current">Blog</span>
+    </div>
+  </section>
+
+  <!-- BLOG SECTION -->
+  <section class="section" id="blog">
+    <div class="container">
+      <!-- ====== FEATURED ARTICLE ====== -->
+      <article class="blog-featured reveal">
+        <a href="blog-post.html" class="blog-featured__media" aria-label="Read the featured article">
+          <div class="blog-featured__thumb">
+            <div class="flyer flyer--mini">
+              <span class="flyer__kicker">Where Beauty Meets Expertise</span>
+              <strong class="flyer__title">Professional Skincare &amp; Makeup Services in New Jersey</strong>
+              <span class="flyer__tagline">Healthy Skin. Flawless Beauty. Confident You.</span>
+            </div>
+          </div>
+        </a>
+        <div class="blog-featured__content">
+          <div class="blog-featured__tags">
+            <span class="blog-pill blog-pill--featured">Featured</span>
+            <span class="blog-pill blog-pill--gold">Skincare &amp; Makeup</span>
+          </div>
+          <p class="blog-card__date">June 29, 2026</p>
+          <h2 class="blog-featured__title">Where Beauty Meets Expertise: Skincare & Makeup</h2>
+          <p class="blog-featured__excerpt">When it comes to beauty, confidence starts with feeling comfortable in your own skin. Whether you're looking for radiant, healthy skin, flawless makeup for a special occasion, or personalized beauty education, choosing an experienced professional can make all the difference.</p>
+          <div class="blog-featured__actions">
+            <a href="blog-post.html" class="btn btn--blue">Read Full Article</a>
+            <a href="contact.html" class="btn btn--ghost">Book a Service</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- ====== LATEST ARTICLES ====== -->
+      <div class="section-header reveal" style="margin-top: var(--space-4xl);">
+        <span class="section-header__label">Recent Posts</span>
+        <h2>Latest From the Blog</h2>
+        <span class="accent-line"></span>
+      </div>
+
+      <div class="blog-grid">
+        <article class="blog-card reveal delay-1">
+          <div class="blog-card__image">
+            🌈
+            <span class="blog-card__category">Skincare Concerns</span>
+            <span class="blog-card__category blog-card__category--gold">Full Article</span>
+          </div>
+          <div class="blog-card__content">
+            <p class="blog-card__date">August 10, 2026</p>
+            <h3 class="blog-card__title">What Causes Hyperpigmentation &amp; the Treatments That Actually Work</h3>
+            <p class="blog-card__excerpt">A closer look at what causes hyperpigmentation — and how to address it with the right routine.</p>
+            <a href="blog-post-7.html" class="blog-card__link">Read Full Article →</a>
+          </div>
+        </article>
+
+        <article class="blog-card reveal delay-2">
+          <div class="blog-card__image">
+            ☀️
+            <span class="blog-card__category">Skincare Tips</span>
+            <span class="blog-card__category blog-card__category--gold">Full Article</span>
+          </div>
+          <div class="blog-card__content">
+            <p class="blog-card__date">August 5, 2026</p>
+            <h3 class="blog-card__title">SPF 101: Why You Need It Indoors, in Winter and on Dark Skin Tones</h3>
+            <p class="blog-card__excerpt">Daily SPF isn't just for beach days — here's why it matters indoors and all year round.</p>
+            <a href="blog-post-6.html" class="blog-card__link">Read Full Article →</a>
+          </div>
+        </article>
+
+        <article class="blog-card reveal delay-3">
+          <div class="blog-card__image">
+            🧪
+            <span class="blog-card__category">Skin Science</span>
+            <span class="blog-card__category blog-card__category--gold">Full Article</span>
+          </div>
+          <div class="blog-card__content">
+            <p class="blog-card__date">July 28, 2026</p>
+            <h3 class="blog-card__title">Everything You Need to Know About Chemical Exfoliation vs Physical</h3>
+            <p class="blog-card__excerpt">A beginner-friendly guide to chemical exfoliation — from AHAs to BHAs and safe, effective use.</p>
+            <a href="blog-post-5.html" class="blog-card__link">Read Full Article →</a>
+          </div>
+        </article>
+
+        <article class="blog-card reveal delay-4">
+          <div class="blog-card__image">
+            💧
+            <span class="blog-card__category">Skincare Tips</span>
+            <span class="blog-card__category blog-card__category--gold">Full Article</span>
+          </div>
+          <div class="blog-card__content">
+            <p class="blog-card__date">July 22, 2026</p>
+            <h3 class="blog-card__title">Double Cleansing: What It Is, Why It Works &amp; How to Do It Properly</h3>
+            <p class="blog-card__excerpt">Makeup, sunscreen, oil, and pollution build up even after one cleanse. Here's the two-step method that leaves skin truly clean.</p>
+            <a href="blog-post-4.html" class="blog-card__link">Read Full Article →</a>
+          </div>
+        </article>
+
+        <article class="blog-card reveal delay-5">
+          <div class="blog-card__image">
+            🔄
+            <span class="blog-card__category">Skincare Tips</span>
+            <span class="blog-card__category blog-card__category--gold">Full Article</span>
+          </div>
+          <div class="blog-card__content">
+            <p class="blog-card__date">July 13, 2026</p>
+            <h3 class="blog-card__title">Why Your Skincare Routine Stops Working — And What to Do About It</h3>
+            <p class="blog-card__excerpt">Your skin changes over time — and your routine should change with it. Six reasons your products stopped working and how to get back on track.</p>
+            <a href="blog-post-3.html" class="blog-card__link">Read Full Article →</a>
+          </div>
+        </article>
+
+        <article class="blog-card reveal delay-6">
+          <div class="blog-card__image">
+            🧴
+            <span class="blog-card__category">Skin Journal</span>
+            <span class="blog-card__category blog-card__category--gold">Full Article</span>
+          </div>
+          <div class="blog-card__content">
+            <p class="blog-card__date">July 6, 2026</p>
+            <h3 class="blog-card__title">What Is Your Skin Barrier — and How Do You Know If Yours Is Damaged</h3>
+            <p class="blog-card__excerpt">Your skin barrier is your skin's natural protective shield. Learn what damages it, the warning signs, and how to repair it.</p>
+            <a href="blog-post-2.html" class="blog-card__link">Read Full Article →</a>
+          </div>
+        </article>
+
+        </div>
+
+      <!-- Disclaimer (copied from beautyblissusa.com/blog) -->
+      <div class="blog-disclaimer reveal">
+        <p><strong>Disclaimer:</strong> Any recommendations or showing of products are based on personal experience and are solely an opinion. If you have any skin conditions or need recommendations based on skincare needs, please consult a dermatologist or relevant doctor.</p>
+        <p>The information is provided by Beauty Bliss USA and while we aim to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the information, individual products, services, or related graphics contained on the website for any purpose.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER -->
+  <section class="section section--alt">
+    <div class="container">
+      <div class="newsletter reveal">
+        <span class="section-header__label">Stay Connected</span>
+        <h3>Never Miss a Skin Tip</h3>
+        <p>Subscribe for expert advice, promotions, and first access to new services.</p>
+        <form class="newsletter__form" action="#" method="post">
+          <input type="email" class="newsletter__input" placeholder="Your email address" required aria-label="Email">
+          <button type="submit" class="btn btn--primary">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <a href="index.html" class="nav__logo">
+            <img src="images/logo.jpeg" alt="Beauty Bliss USA logo" class="nav__logo-img">
+            <div><span class="nav__logo-text">Beauty Bliss</span><span class="nav__logo-sub">USA</span></div>
+          </a>
+          <p class="footer__brand-text">A holistic approach to skincare and beauty — full of bliss.</p>
+          <div class="footer__social">
+            <a href="https://www.instagram.com/beauty_bliss_usa/" target="_blank" rel="noopener" class="footer__social-link">📷</a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener" class="footer__social-link">f</a>
+            <a href="https://www.tiktok.com/" target="_blank" rel="noopener" class="footer__social-link">♪</a>
+            <a href="https://wa.me/14436002014" target="_blank" rel="noopener" class="footer__social-link">✆</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__heading">Quick Links</h4>
+          <a href="index.html" class="footer__link">Home</a>
+          <a href="about.html" class="footer__link">About</a>
+          <a href="services.html" class="footer__link">Services</a>
+          <a href="blog.html" class="footer__link">Blog</a>
+          <a href="contact.html" class="footer__link">Contact</a>
+        </div>
+        <div>
+          <h4 class="footer__heading">Services</h4>
+          <a href="services.html" class="footer__link">Specialized Facials</a>
+          <a href="services.html" class="footer__link">Dermaplaning</a>
+          <a href="services.html" class="footer__link">Bridal Makeup</a>
+          <a href="services.html" class="footer__link">Event Makeup</a>
+        </div>
+        <div>
+          <h4 class="footer__heading">Contact</h4>
+          <div class="footer__contact-item"><span class="icon">📍</span><span>Somerset, NJ 08873</span></div>
+          <div class="footer__contact-item"><span class="icon">✉</span><span>info@beautyblissusa.com</span></div>
+          <div class="footer__contact-item"><span class="icon">📞</span><span>(443) 600-2014</span></div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2025 Beauty Bliss USA — All Rights Reserved</span>
+        <div class="footer__bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/14436002014" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Chat on WhatsApp">💬</a>
+  <script src="js/main.js"></script>
+</body>
+</html>

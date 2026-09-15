@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services & Pricing — Beauty Bliss USA</title>
+  <meta name="description" content="Explore Beauty Bliss USA services: specialized facials from $120, dermaplaning, bridal and event makeup, and one-on-one makeup sessions in Somerset, NJ.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="images/logo.jpeg">
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="nav">
+    <div class="nav__container">
+      <a href="index.html" class="nav__logo">
+        <img src="images/logo.jpeg" alt="Beauty Bliss USA logo" class="nav__logo-img">
+        <div>
+          <span class="nav__logo-text">Beauty Bliss</span>
+          <span class="nav__logo-sub">USA</span>
+        </div>
+      </a>
+      <div class="nav__links">
+        <a href="index.html" class="nav__link">Home</a>
+        <a href="about.html" class="nav__link">About</a>
+        <a href="services.html" class="nav__link active">Services</a>
+        <a href="contact.html" class="nav__link">Contact</a>
+        <a href="blog.html" class="nav__link">Blog</a>
+      </div>
+      <a href="contact.html" class="nav__cta">Book Now</a>
+      <button class="nav__toggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="nav__mobile-menu">
+    <a href="index.html" class="nav__mobile-link">Home</a>
+    <a href="about.html" class="nav__mobile-link">About</a>
+    <a href="services.html" class="nav__mobile-link">Services</a>
+    <a href="contact.html" class="nav__mobile-link">Contact</a>
+    <a href="blog.html" class="nav__mobile-link">Blog</a>
+    <a href="contact.html" class="btn btn--primary">Book Now</a>
+  </div>
+
+  <!-- ========== PAGE HERO ========== -->
+  <section class="page-hero">
+    <div class="page-hero__bg"></div>
+    <h1>Services & Pricing</h1>
+    <p>Luxurious skincare treatments and makeup artistry — tailored to your unique beauty.</p>
+    <div class="breadcrumb">
+      <a href="index.html">Home</a>
+      <span class="sep">→</span>
+      <span class="current">Services</span>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES FILTER ========== -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="services-filter reveal">
+        <button class="services-filter__btn active" data-filter="all">All Services</button>
+        <button class="services-filter__btn" data-filter="skincare">Skincare</button>
+        <button class="services-filter__btn" data-filter="makeup">Makeup</button>
+      </div>
+
+      <!-- ========== SKINCARE TREATMENTS ========== -->
+      <div class="service-category" data-category="skincare">
+        <div class="service-category-header reveal">
+          <h2>💆‍♀️ Skincare Treatments</h2>
+          <p style="font-size: 0.95rem;">All treatments include a full-face analysis, double cleansing, exfoliation, extractions, facial massage, infusion, and mask(s) — 90 minutes.</p>
+        </div>
+        <div class="service-detail-grid">
+          <div class="service-detail-card reveal">
+            <div class="service-detail-card__number">01</div>
+            <div class="service-detail-card__content">
+              <h3>Oxygenated Rx Facial</h3>
+              <p>A controlled amount of oxygen is generated at optional levels on the skin to provide maximum benefits and replace the ruddy look with brighter skin.</p>
+              <div class="service-detail-card__tags">
+                <span class="service-detail-card__tag">Acne-prone skin</span>
+                <span class="service-detail-card__tag">Rosacea</span>
+                <span class="service-detail-card__tag">Telangiectasia</span>
+                <span class="service-detail-card__tag">All skin types</span>
+              </div>
+            </div>
+            <div class="service-detail-card__price">
+              <span class="service-detail-card__price-amount">$200</span>
+              <span class="service-detail-card__price-label">per session</span>
+            </div>
+          </div>
+
+          <div class="service-detail-card reveal">
+            <div class="service-detail-card__number">02</div>
+            <div class="service-detail-card__content">
+              <h3>Firming Peptide Facial</h3>
+              <p>Firming and tightening mask combining the latest peptide, antioxidant, and dermal regeneration science — results in micro circulation, detoxification, and anti-glycation.</p>
+              <div class="service-detail-card__tags">
+                <span class="service-detail-card__tag">Advanced aging</span>
+                <span class="service-detail-card__tag">Dullness</span>
+                <span class="service-detail-card__tag">Sagging</span>
+              </div>
+            </div>
+            <div class="service-detail-card__price">
+              <span class="service-detail-card__price-amount">$140</span>
+              <span class="service-detail-card__price-label">per session</span>
+            </div>
+          </div>
+
+          <div class="service-detail-card reveal">
+            <div class="service-detail-card__number">03</div>
+            <div class="service-detail-card__content">
+              <h3>Triple Brightening Very Berry Facial</h3>
+              <p>A unique combination of exotic berries from the Australian Outback with Lactic and Mandelic acids — designed to nourish, moisturize, reduce inflammation, and brighten skin.</p>
+              <div class="service-detail-card__tags">
+                <span class="service-detail-card__tag">All skin types</span>
+                <span class="service-detail-card__tag">Dry & dehydrated</span>
+                <span class="service-detail-card__tag">Lackluster skin</span>
+              </div>
+            </div>
+            <div class="service-detail-card__price">
+              <span class="service-detail-card__price-amount">$140</span>
+              <span class="service-detail-card__price-label">per session</span>
+            </div>
+          </div>
+
+          <div class="service-detail-card reveal">
+            <div class="service-detail-card__number">04</div>
+            <div class="service-detail-card__content">
+              <h3>Charcoal Milk Clarifying Facial</h3>
+              <p>Detoxifying and exfoliating mask using bamboo charcoal, lactobionic acid, lactic acid, and kaolin clay — relieves acne congestion and prevents future breakouts.</p>
+              <div class="service-detail-card__tags">
+                <span class="service-detail-card__tag">Acne-prone</span>
+                <span class="service-detail-card__tag">Congestion</span>
+                <span class="service-detail-card__tag">All skin types</span>
+              </div>
+            </div>
+            <div class="service-detail-card__price">
+              <span class="service-detail-card__price-amount">$140</span>
+              <span class="service-detail-card__price-label">per session</span>
+            </div>
+          </div>
+
+          <div class="service-detail-card reveal">
+            <div class="service-detail-card__number">05</div>
+            <div class="service-detail-card__content">
+              <h3>S'more Indulgence Facial</h3>
+              <p>A complex blend of hydrating ingredients that infuse critical hydration into the skin while delivering healing and soothing botanicals.</p>
+              <div class="service-detail-card__tags">
+                <span class="service-detail-card__tag">All skin types</span>
+                <span class="service-detail-card__tag">Dehydration</span>
+              </div>
+            </div>
+            <div class="service-detail-card__price">
+              <span class="service-detail-card__price-amount">$120</span>
+              <span class="service-detail-card__price-label">per session</span>
+            </div>
+          </div>
+
+          <div class="service-detail-card reveal">
+            <div class="service-detail-card__number">06</div>
+            <div class="service-detail-card__content">
+              <h3>Circadian Time Balancing Facial</h3>
+              <p>Malachite-powered mask designed to optimize your skin's circadian rhythms while fighting oxidative stress caused by blue light exposure.</p>
+              <div class="service-detail-card__tags">
+                <span class="service-detail-card__tag">All skin types</span>
+                <span class="service-detail-card__tag">Blue light exposure</span>
+              </div>
+            </div>
+            <div class="service-detail-card__price">
+              <span class="service-detail-card__price-amount">$120</span>
+              <span class="service-detail-card__price-label">per session</span>
+            </div>
+          </div>
+
+          <div class="service-detail-card reveal">
+            <div class="service-detail-card__number">07</div>
+            <div class="service-detail-card__content">
+              <h3>Caviar Lime & Passionfruit Facial</h3>
+              <p>Advanced exfoliating technology utilizing Lime Pearl Caviar to gently rejuvenate the skin with a burst of antioxidant support.</p>
+              <div class="service-detail-card__tags">
+                <span class="service-detail-card__tag">All skin types</span>
+                <span class="service-detail-card__tag">Gentle exfoliation</span>
+              </div>
+            </div>
+            <div class="service-detail-card__price">
+              <span class="service-detail-card__price-amount">$120</span>
+              <span class="service-detail-card__price-label">per session</span>
+            </div>
+          </div>
+
+          <div class="service-detail-card reveal">
+            <div class="service-detail-card__number">08</div>
+            <div class="service-detail-card__content">
+              <h3>Exotic Snow Algae & Spirulina Cooling Facial</h3>
+              <p>Cooling and soothing sensation designed to improve cellular defenses, detoxification and repair. Reduces inflammation and rejuvenates the skin.</p>
+              <div class="service-detail-card__tags">
+                <span class="service-detail-card__tag">Redness</span>
+                <span class="service-detail-card__tag">Rosacea</span>
+                <span class="service-detail-card__tag">Sunburn</span>
+                <span class="service-detail-card__tag">Sensitive skin</span>
+              </div>
+            </div>
+            <div class="service-detail-card__price">
+              <span class="service-detail-card__price-amount">$120</span>
+              <span class="service-detail-card__price-label">per session</span>
+            </div>
+          </div>
+
+          <div class="service-detail-card reveal">
+            <div class="service-detail-card__number">09</div>
+            <div class="service-detail-card__content">
+              <h3>Pre & Post Biotic Nourishing Mask with Royal Tea</h3>
+              <p>Supports a healthy microbiome while delivering deep hydration and antioxidant protection for balanced, resilient skin.</p>
+              <div class="service-detail-card__tags">
+                <span class="service-detail-card__tag">All skin types</span>
+                <span class="service-detail-card__tag">Sensitive & dry</span>
+              </div>
+            </div>
+            <div class="service-detail-card__price">
+              <span class="service-detail-card__price-amount">$120</span>
+              <span class="service-detail-card__price-label">per session</span>
+            </div>
+          </div>
+
+          <div class="service-detail-card reveal" style="border-left: 3px solid var(--gold);">
+            <div class="service-detail-card__number" style="background: linear-gradient(135deg, var(--gold), var(--gold-light));">★</div>
+            <div class="service-detail-card__content">
+              <h3>Certified Dermaplaning</h3>
+              <p>Non-invasive procedure using a sterile surgical scalpel blade — removes dead skin cells and vellus hair (peach fuzz). Brightens, reduces fine lines, smooths texture, and improves product penetration.</p>
+              <div class="service-detail-card__tags">
+                <span class="service-detail-card__tag">Brightening</span>
+                <span class="service-detail-card__tag">Anti-aging</span>
+                <span class="service-detail-card__tag">Smooth texture</span>
+              </div>
+            </div>
+            <div class="service-detail-card__price">
+              <span class="service-detail-card__price-amount">$120</span>
+              <span class="service-detail-card__price-label">per session</span>
+            </div>
+          </div>
+
+          <div class="service-detail-card reveal" style="opacity: 0.7;">
+            <div class="service-detail-card__number">—</div>
+            <div class="service-detail-card__content">
+              <h3>Chemical Peels <span class="badge-coming-soon">✨ Coming Soon</span></h3>
+              <p>Professional chemical peel treatments are on their way. Stay tuned for this exciting new addition!</p>
+            </div>
+            <div class="service-detail-card__price">
+              <span class="service-detail-card__price-amount">TBD</span>
+              <span class="service-detail-card__price-label">coming soon</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ========== MAKEUP SERVICES ========== -->
+      <div class="service-category" data-category="makeup">
+        <div class="service-category-header reveal">
+          <h2>💄 Makeup Services</h2>
+          <p style="font-size: 0.95rem;">Traditional and airbrush makeup for any occasion.</p>
+        </div>
+        <div class="service-detail-grid">
+          <div class="service-detail-card reveal">
+            <div class="service-detail-card__number">01</div>
+            <div class="service-detail-card__content">
+              <h3>Bridal Makeup</h3>
+              <p>I'd be honored to be a part of your special day. Sit back, relax, and let me create a look you'll never forget.</p>
+              <div class="service-detail-card__tags">
+                <span class="service-detail-card__tag">Weddings</span>
+                <span class="service-detail-card__tag">Traditional & airbrush</span>
+              </div>
+            </div>
+            <div class="service-detail-card__price">
+              <span class="service-detail-card__price-amount">From $300</span>
+              <span class="service-detail-card__price-label">per appointment</span>
+            </div>
+          </div>
+
+          <div class="service-detail-card reveal">
+            <div class="service-detail-card__number">02</div>
+            <div class="service-detail-card__content">
+              <h3>Wedding-Attendee Makeup</h3>
+              <p>Choose a makeup that suits you — neutral tones with gold highlights for a bronzed look that will have you glowing.</p>
+              <div class="service-detail-card__tags">
+                <span class="service-detail-card__tag">Wedding guests</span>
+                <span class="service-detail-card__tag">Custom look</span>
+              </div>
+            </div>
+            <div class="service-detail-card__price">
+              <span class="service-detail-card__price-amount">From $150</span>
+              <span class="service-detail-card__price-label">per appointment</span>
+            </div>
+          </div>
+
+          <div class="service-detail-card reveal">
+            <div class="service-detail-card__number">03</div>
+            <div class="service-detail-card__content">
+              <h3>Event Makeup</h3>
+              <p>A night out, corporate function, birthday party, religious event, or any occasion — I'll create a look you'll love.</p>
+              <div class="service-detail-card__tags">
+                <span class="service-detail-card__tag">Parties</span>
+                <span class="service-detail-card__tag">Corporate events</span>
+                <span class="service-detail-card__tag">Birthdays</span>
+              </div>
+            </div>
+            <div class="service-detail-card__price">
+              <span class="service-detail-card__price-amount">From $100</span>
+              <span class="service-detail-card__price-label">per appointment</span>
+            </div>
+          </div>
+
+          <div class="service-detail-card reveal">
+            <div class="service-detail-card__number">04</div>
+            <div class="service-detail-card__content">
+              <h3>One-on-One Makeup Session</h3>
+              <p>You don't have to leave home to learn. A fundamental course teaching basic makeup application using your own products.</p>
+              <div class="service-detail-card__tags">
+                <span class="service-detail-card__tag">Personalized learning</span>
+                <span class="service-detail-card__tag">Zoom or in-person</span>
+              </div>
+            </div>
+            <div class="service-detail-card__price">
+              <span class="service-detail-card__price-amount">$80</span>
+              <span class="service-detail-card__price-label">per session · max 60 min</span>
+            </div>
+          </div>
+        </div>
+        <p style="margin-top: var(--space-xl); font-size: 0.9rem; color: var(--gray-400);">* Complimentary consultation required prior to makeup appointment via Zoom or video chat.</p>
+      </div>
+
+      <!-- ========== CTA ========== -->
+      <div class="text-center" style="margin-top: var(--space-3xl);">
+        <div class="reveal">
+          <h3 style="margin-bottom: var(--space-md);">Ready to Book Your Appointment?</h3>
+          <p style="max-width: 500px; margin: 0 auto var(--space-xl);">Send a message or call to reserve your spot today. All services are by appointment only.</p>
+          <div style="display: flex; justify-content: center; gap: var(--space-lg); flex-wrap: wrap;">
+            <a href="contact.html" class="btn btn--blue">Book Now</a>
+            <a href="https://wa.me/14436002014" target="_blank" rel="noopener" class="btn btn--primary">💬 WhatsApp Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <a href="index.html" class="nav__logo">
+            <img src="images/logo.jpeg" alt="Beauty Bliss USA logo" class="nav__logo-img">
+            <div>
+              <span class="nav__logo-text">Beauty Bliss</span>
+              <span class="nav__logo-sub">USA</span>
+            </div>
+          </a>
+          <p class="footer__brand-text">A holistic approach to skincare and beauty — full of bliss.</p>
+          <div class="footer__social">
+            <a href="https://www.instagram.com/beauty_bliss_usa/" target="_blank" rel="noopener" class="footer__social-link">📷</a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener" class="footer__social-link">f</a>
+            <a href="https://www.tiktok.com/" target="_blank" rel="noopener" class="footer__social-link">♪</a>
+            <a href="https://wa.me/14436002014" target="_blank" rel="noopener" class="footer__social-link">✆</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__heading">Quick Links</h4>
+          <a href="index.html" class="footer__link">Home</a>
+          <a href="about.html" class="footer__link">About</a>
+          <a href="services.html" class="footer__link">Services</a>
+          <a href="blog.html" class="footer__link">Blog</a>
+          <a href="contact.html" class="footer__link">Contact</a>
+        </div>
+        <div>
+          <h4 class="footer__heading">Services</h4>
+          <a href="services.html" class="footer__link">Specialized Facials</a>
+          <a href="services.html" class="footer__link">Dermaplaning</a>
+          <a href="services.html" class="footer__link">Bridal Makeup</a>
+          <a href="services.html" class="footer__link">Event Makeup</a>
+        </div>
+        <div>
+          <h4 class="footer__heading">Contact</h4>
+          <div class="footer__contact-item"><span class="icon">📍</span><span>Somerset, NJ 08873</span></div>
+          <div class="footer__contact-item"><span class="icon">✉</span><span>info@beautyblissusa.com</span></div>
+          <div class="footer__contact-item"><span class="icon">📞</span><span>(443) 600-2014</span></div>
+          <div class="footer__contact-item"><span class="icon">🕐</span><span>By Appointment Only</span></div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2025 Beauty Bliss USA — All Rights Reserved</span>
+        <div class="footer__bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/14436002014" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Chat on WhatsApp">💬</a>
+  <script src="js/main.js"></script>
+</body>
+</html>
